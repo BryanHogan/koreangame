@@ -1,12 +1,13 @@
 ---
 import NavBar from "../components/NavBar.astro";
 import Layout from "../layouts/Layout.astro";
+import Cards1 from "../components/Cards1.svelte";
 ---
 
 <Layout title="Welcome to Astro.">
 	<NavBar />
 	<main>
-		
+		<Cards1 client:load/>
 	</main>
 </Layout>
 
